@@ -101,6 +101,9 @@ export default {
         this.uploadLoading = false
         this.tableLoading = false
         this.showRemoveFile = true
+
+        console.log('tableTitle', this.tableTitle);
+        console.log('tableData', this.tableData);
       }
     }
   },
